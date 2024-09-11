@@ -56,7 +56,7 @@ const ImageTextComponent = ({ items }) => {
           </div>
         ))}
       </div>
-      <div className={styles.bold}>קראת  נכון!</div>
+      <div className={styles.bold}>ובנוסף</div>
       <div className={styles.boldR}>את תצאי ממני עם שני מקצועות ביד</div>
       <div className={styles.explain}>כל מי שמצטרפת לקורס ציפורניים</div>
       <div className={styles.boldR}>מקבלת בחינם גם קורס גבות! <br/> (בשווי 2500 ש''ח)</div>

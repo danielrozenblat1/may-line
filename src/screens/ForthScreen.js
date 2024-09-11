@@ -58,11 +58,7 @@ const ForthScreen = () => {
           description: 'אני איתך גם בכל המסביב לעסק! אעזור לך ואתן לך טיפים לגבי: פתיחת עוסק פטור, צילום ,שיווק , ניהול יומן והתנהלות עם לקוחות'
         },
     
-        {
-          image: two,
-          title: '2 מקצועות ביד',
-          description: 'כן כן! 2 מקצועות ביד, תמשיכי לקרוא ותביני הכל'
-        },
+  
     
       ];
     
@@ -78,8 +74,8 @@ const ForthScreen = () => {
     return <>
         <div className={styles.background}>
             <div className={styles.title}>מאי, מה אני לומדת ממך בקורס ציפורניים?</div>
-            <div className={styles.description}>זה הולך לעבוד ככה</div>
-            <div className={styles.bold}>6 פגישות , כל פגישה 6 שעות שבהן תלמדי את</div>
+            <div className={styles.description}>אז.. זה הולך לעבוד ככה</div>
+            <div className={styles.bold}>6 פגישות , כל פגישה באורך 6 שעות שבהן תלמדי את</div>
             
             {rows.map((row, rowIndex) => (
                 <div key={rowIndex} className={styles.row}>

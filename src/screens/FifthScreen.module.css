@@ -1,0 +1,34 @@
+.title {
+    font-size: 3rem;
+    color: #000000;
+    font-family: "Assistant";
+    direction: rtl;
+    text-align: center;
+    margin:1% auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:2% auto;
+  }
+  
+  .description {
+    font-family: 'AssistantR';
+    font-size: 1.5rem;
+    direction: rtl;
+    margin: 1% auto;
+    width: 50%;
+    text-align: center;
+  }
+    
+  .descriptionB {
+    font-family: 'Assistant';
+    font-size: 1.5rem;
+    direction: rtl;
+    margin: 1% auto;
+    width: 50%;
+    text-align: center;
+  }
