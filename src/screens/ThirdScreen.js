@@ -1,14 +1,15 @@
 import styles from "./ThirdScreen.module.css"
-import {Player} from "@lordicon/react"
-import check from "../icons/wired-lineal-284-avatar-man-approved.json"
-import { useRef } from "react"
+
+
+
 const ThirdScreen=()=>{
 
-
+ 
 
 
 return <>
-
+ <h1 className={styles.title}>may line</h1>
+{/* <div className={styles.explain}>קורס ללימוד ציפורניים שיהפוך אותך למניקוריסטית בסטנדרט הגבוה ביותר <strong>ויוציא אותך עם:</strong></div> */}
 
 </>
 
