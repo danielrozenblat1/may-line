@@ -41,26 +41,7 @@ const ForthScreen = () => {
             description: "חיזוקים אחרונים, דיוקים קטנים, הרמת כוסית וחלוקת תעודות."
         }
     ];
-    const items = [
-        {
-          image: know,
-          title: "ידע שיקנה לך נקודת פתיחה מטורפת",
-          description: 'את תקבלי ממני ידע מקצועי שיוציא אותך בסוף הקורס עם יכולת לעשות ציפורניים ברמה של רוסיה'
-        },
-        {
-          image: certificate,
-          title: 'תעודה מקצועית',
-          description: 'את תצאי ממני עם תעודה מקצועית ,הסמכה לידע שקיבלת והרבה יותר בטחון לעסוק בתחום!'
-        },
-        {
-          image: business,
-          title: 'יסודות הבסיס של פתיחת עסק',
-          description: 'אני איתך גם בכל המסביב לעסק! אעזור לך ואתן לך טיפים לגבי: פתיחת עוסק פטור, צילום ,שיווק , ניהול יומן והתנהלות עם לקוחות'
-        },
     
-  
-    
-      ];
     
     // Function to chunk the meetings array into groups of 3
     const chunkArray = (arr, size) => {
@@ -73,7 +54,7 @@ const ForthScreen = () => {
 
     return <>
         <div className={styles.background}>
-            <div className={styles.title}>מאי, מה אני לומדת ממך בקורס ציפורניים?</div>
+    
             <div className={styles.description}>אז.. זה הולך לעבוד ככה</div>
             <div className={styles.bold}>6 פגישות , כל פגישה באורך 6 שעות שבהן תלמדי את</div>
             
@@ -91,7 +72,6 @@ const ForthScreen = () => {
             ))}
         </div>
      
-        <ImageTextComponent items={items} />
         <FormScreen/>
     </>
 }

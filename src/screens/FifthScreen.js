@@ -11,6 +11,7 @@ import loop from "../Icons/wired-lineal-2177-infinity-sign-hover-draw.json"
 import patience from "../Icons/wired-lineal-472-hourglass-hover-rotation.json"
 import practice from "../Icons/wired-lineal-1594-manicure-hover-pinch.json"
 import FormScreen from "../components/form/FormScreen"
+import Button from "../components/Button/Button"
 const FifthScreen=()=>{
 
 
@@ -31,7 +32,7 @@ const FifthScreen=()=>{
 <IconTextComponent text="תהי סבלנית,הדברים לא קורים ברגע!" icon={patience}/>
 </div>
 <div className={styles.descriptionB}>אז אם את מאמינה שהצלחה זה תהליך,שתרגול והשקעה מביאים תוצאות והכי חשוב - מאמינה בעצמך!</div>
-<FormScreen/>
+<Button text="תלחצי כאן ונדבר"/>
     </>
 }
 export default FifthScreen

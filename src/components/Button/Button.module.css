@@ -1,0 +1,32 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.button {
+    background: linear-gradient(145deg, #f8e2e2, #f5d1d1); /* גוון שמנת-ורוד בהיר */
+    border: none;
+    color: #000000; /* צבע טקסט כהה יותר לניגודיות */
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-family: "Assistant";
+    direction: rtl;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(139, 75, 75, 0.1);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #f5d1d1, #f2c0c0); /* גוון מעט כהה יותר בהover */
+    box-shadow: 0 6px 8px rgba(139, 75, 75, 0.2);
+}
+
+.button:active {
+    background: linear-gradient(145deg, #edb6b6, #e9a5a5); /* גוון כהה יותר בלחיצה */
+    box-shadow: 0 2px 4px rgba(139, 75, 75, 0.1);
+    transform: translateY(2px);
+}

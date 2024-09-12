@@ -14,7 +14,7 @@ const FirstScreen = () => {
   }, []);
 
   const handleArrowClick = () => {
-    const nextSection = document.getElementById('next-section');
+    const nextSection = document.getElementById('אם');
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }
