@@ -7,6 +7,7 @@
     margin: 15px auto;
     direction: rtl;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
   }
   
   .questionButton {
@@ -17,7 +18,9 @@
     padding: 1rem;
     background-color: #ffcfcf;
     border: none;
+    text-decoration: none;
     cursor: pointer;
+  
     transition: background-color 0.3s ease;
   }
   
@@ -29,6 +32,7 @@
     font-family: 'AssistantR', sans-serif;
     font-size: 1.2rem;
     text-align: center;
+    color: black;
     direction: rtl;
     flex-grow: 1;
   }
@@ -49,6 +53,7 @@
     transition: height 0.3s ease;
     background-color: #ffffff;
     margin: auto;
+    
     direction: rtl;
   }
   
@@ -56,6 +61,7 @@
     font-family: 'AssistantR', sans-serif;
     font-size: 1.05rem;
     padding: 1rem;
+    color: black;
     justify-content: center;
     text-align: center;
     margin: auto;
