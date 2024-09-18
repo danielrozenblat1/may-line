@@ -3,6 +3,9 @@ import './App.css';
 import ByMe from './components/ByMe/ByMe';
 import FormScreen from './components/form/FormScreen';
 import WhoAmI from './components/me/Me';
+import Recommendation from './components/recommend/Recommend';
+import Bikorot from './components/recommends/Recommends';
+import ImageTextComponent from './components/what/What';
 import FifthScreen from './screens/FifthScreen';
 import FirstScreen from './screens/FirstScreen';
 import ForthScreen from './screens/ForthScreen';
@@ -22,6 +25,7 @@ function App() {
 <FifthScreen/>
 <WhoAmI/>
 <SixthScreen/>
+
 <ByMe/>
   </>
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Me.module.css';
-import may from "../../images/מאי ליין תדמית.jpg"
+import may from "../../images/מאי סויסה.jpg"
 const WhoAmI = () => {
   return <>
 <div className={styles.title}>קצת עלי</div>

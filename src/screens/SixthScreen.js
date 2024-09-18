@@ -1,23 +1,14 @@
 import Button from "../components/Button/Button"
 import FAQItem from "../components/questions/Questions"
 import Recommendation from "../components/recommend/Recommend"
+import Bikorot from "../components/recommends/Recommends"
 import styles from "./SixthScreen.module.css"
 const SixthScreen=()=>{
 
 
     return <>
-    <div className={styles.title}>קצת מהבנות שלמדו ממני</div>
-    <div className={styles.row}>
-    <Recommendation stars={5} name="קטיה" description="אין בעולם הזה מישהי יותר מקצועית ומקסימה ממנה!" />
-    <Recommendation stars={5} name="מעיין פ." description="הכי תותחית בתחום!!" />
-    <Recommendation stars={5} name="הדס פ." description="אלופה ומקצועית" />
- 
-    </div>
-    <div className={styles.row}>
-    <Recommendation stars={5} name="תאיר ג." description="לא מתאכזבת ממך אף פעם!" />
-    <Recommendation stars={5} name="הדר א." description="אין על המקצועית והיחס האישי והחם" />
-    </div>
   
+<Bikorot/>
     <div className={styles.title}>זמן לענות על כמה שאלות שלכן</div>
 
     <FAQItem question="אני יכולה להכנס לתחום גם אם אין לי רקע מקדים?" answer="כן! וזה מה שהכי יפה בתחום הזה! את צריכה רק לאהוב את התחום ולתרגל אותו בעזרת הידע שאת מקבלת - זה עניין של תרגול והתמדה ולא רק של כשרון"/>

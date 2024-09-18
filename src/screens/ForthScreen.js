@@ -71,7 +71,8 @@ const ForthScreen = () => {
                 </div>
             ))}
         </div>
-     
+        <div className={styles.explain}>מחיר השקה ל-10 הראשונות שמשאירות פרטים</div>
+        <div className={styles.little}>* 5 נותרו *</div>
         <FormScreen/>
     </>
 }

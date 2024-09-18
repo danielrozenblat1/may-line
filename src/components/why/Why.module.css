@@ -1,20 +1,44 @@
 .whyContainer {
-
-  padding: 1rem;
-  border-radius:2rem;
- 
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 320px;  /* Changed from max-width: 70% to width: 100% */
   position: relative;
+  background: linear-gradient(135deg, rgba(255, 235, 220, 0.8), rgba(255, 215, 200, 0.8));
+  border-radius: 15px;
   overflow: hidden;
-  transition: all ease 1s;
-  }
-  
-  .whyContainer:hover {
-    transform: translateY(-5px);
+  border: 1px solid rgba(255, 200, 180, 0.6);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(255, 180, 160, 0.3),
+              inset 0 0 20px rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  margin: 15px auto;
+  width: 320px;
+}
 
-  }
-  
+.whyContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 235, 220, 0.4),
+    rgba(255, 215, 200, 0.4),
+    rgba(255, 200, 180, 0.4),
+    rgba(255, 180, 160, 0.4),
+    rgba(255, 170, 150, 0.4)
+  );
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.whyContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(255, 180, 160, 0.4),
+              inset 0 0 25px rgba(255, 255, 255, 0.8);
+  background: linear-gradient(135deg, rgba(255, 225, 210, 0.9), rgba(255, 200, 190, 0.9));
+}
   .icon {
     margin:2% auto;
     width:30%;
@@ -43,6 +67,7 @@
   @media (max-width: 350px) {
     .whyContainer {
       padding: 15px;
+      width:280px
     }
     .title {
       font-size: 1.2rem;
@@ -56,6 +81,7 @@
   @media (min-width: 350px) and (max-width: 450px) {
     .whyContainer {
       padding: 18px;
+      width:300px
     }
     .title {
       font-size: 1.3rem;
@@ -82,42 +108,14 @@
   /* 650px - 750px */
   @media (min-width: 650px) and (max-width: 750px) {
     .title {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
   }
   
   /* 750px - 850px */
   @media (min-width: 750px) and (max-width: 850px) {
     .title {
-      font-size: 1.7rem;
-    }
-  }
-  
-  /* 850px - 950px */
-  @media (min-width: 850px) and (max-width: 950px) {
-    .title {
-      font-size: 1.8rem;
-    }
-  }
-  
-  /* 950px - 1050px */
-  @media (min-width: 950px) and (max-width: 1050px) {
-    .title {
-      font-size: 1.9rem;
-    }
-  }
-  
-  /* 1050px - 1150px */
-  @media (min-width: 1050px) and (max-width: 1150px) {
-    .title {
-      font-size: 2rem;
-    }
-  }
-  
-  /* 1150px - 1250px */
-  @media (min-width: 1150px) and (max-width: 1250px) {
-    .title {
-      font-size: 2.1rem;
+      font-size: 1.5rem;
     }
   }
   
