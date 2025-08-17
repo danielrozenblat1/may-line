@@ -1,0 +1,81 @@
+.heroSection {
+    background-image: url('../images/מאי\ ליין\ רקע.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 1rem;
+    border-radius:2rem;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 50%;  /* Changed from max-width: 70% to width: 100% */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 100%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+    transform: rotate(30deg);
+  }
+  
+  .title {
+    font-family: "Sevillana", cursive;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .description {
+    font-family: "AssistantR", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 800px;  /* Increased from 600px to 800px */
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    position: relative;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .arrowUp {
+    transform: translateY(-10px);
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      padding: 1rem;
+      width:85%;
+ 
+    }
+  
+    .title {
+      font-size: 4rem;
+    }
+  
+    .description {
+      font-size: 1.2rem;
+      max-width: 90%;  /* Adjusted for smaller screens */
+    }
+  }

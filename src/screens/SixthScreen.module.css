@@ -1,0 +1,99 @@
+.title {
+    font-size: 3rem;
+    color: #000000;
+    font-family: "Assistant";
+    direction: rtl;
+    text-align: center;
+    margin: 3% auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3% auto;
+  }
+  
+  /* Below 350px */
+  @media (max-width: 350px) {
+    .title {
+      font-size: 1.8rem;
+      margin: 2% auto;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* 350px - 450px */
+  @media (min-width: 350px) and (max-width: 450px) {
+    .title {
+      font-size: 2rem;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* 450px - 550px */
+  @media (min-width: 450px) and (max-width: 550px) {
+    .title {
+      font-size: 2.2rem;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* 550px - 650px */
+  @media (min-width: 550px) and (max-width: 650px) {
+    .title {
+      font-size: 2.4rem;
+    }
+  }
+  
+  /* 650px - 750px */
+  @media (min-width: 650px) and (max-width: 750px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  /* 750px - 850px */
+  @media (min-width: 750px) and (max-width: 850px) {
+    .title {
+      font-size: 2.6rem;
+    }
+  }
+  
+  /* 850px - 950px */
+  @media (min-width: 850px) and (max-width: 950px) {
+    .title {
+      font-size: 2.8rem;
+    }
+  }
+  
+  /* 950px - 1050px */
+  @media (min-width: 950px) and (max-width: 1050px) {
+    .title {
+      font-size: 2.9rem;
+    }
+  }
+  
+  /* 1050px - 1150px */
+  @media (min-width: 1050px) and (max-width: 1150px) {
+    .title {
+      font-size: 3rem;
+    }
+  }
+  
+  /* 1150px - 1250px */
+  @media (min-width: 1150px) and (max-width: 1250px) {
+    .title {
+      font-size: 3rem;
+    }
+  }

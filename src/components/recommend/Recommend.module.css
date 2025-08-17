@@ -1,0 +1,36 @@
+.recommendation {
+    font-family: 'Assistant';
+    direction: rtl;
+    text-align: right;
+    padding: 16px;
+   width: 300px;
+   margin:10px auto;
+   border:2px solid rgb(221, 221, 221);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    unicode-bidi: bidi-override;
+    color: #ff0073;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.name {
+    font-size:1.6rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #333;
+    font-family:  'AssistantR';
+    line-height: 1.4;
+}
+@media (max-width: 350px) {
+
+    .recommendation {
+        width:250px
+    }
+}
