@@ -122,7 +122,7 @@ const FormScreen = () => {
                   ownerName="מאי אושר סויסה"
                   email="mayosherswisa175@gmail.com"
                   phone="+972537133055" // עדכני למספר הטלפון של מאי
-                  domain="https://may-line.co.il" // עדכני לדומיין של מאי
+                  domain="https://mayline.co.il" // עדכני לדומיין של מאי
                 />
               </span>
               ואני מאשר/ת
